@@ -65,12 +65,12 @@ async def help_user(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('📝Rename', callback_data = "rnme"),
-                    InlineKeyboardButton('📂File To Video', callback_data = "f2v")
+                    InlineKeyboardButton('✍🏻Rename', callback_data = "rnme"),
+                    InlineKeyboardButton('🎥File To Video', callback_data = "f2v")
                 ],
                 [
-                    InlineKeyboardButton('🎞️Custom Thumbnail', callback_data = "cthumb"),
-                    InlineKeyboardButton('💬About', callback_data = "about")
+                    InlineKeyboardButton('🕯️Custom Thumbnail', callback_data = "cthumb"),
+                    InlineKeyboardButton('🎭About', callback_data = "about")
                 ]
             ]
         )
@@ -125,12 +125,12 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('📝Rename', callback_data = "rnme"),
-                    InlineKeyboardButton('📂File To Video', callback_data = "f2v")
+                    InlineKeyboardButton('✍🏻Rename', callback_data = "rnme"),
+                    InlineKeyboardButton('🎥File To Video', callback_data = "f2v")
                 ],
                 [
-                    InlineKeyboardButton('🎞️Custom Thumbnail', callback_data = "cthumb"),
-                    InlineKeyboardButton('💬About', callback_data = "about")
+                    InlineKeyboardButton('🕯️Custom Thumbnail', callback_data = "cthumb"),
+                    InlineKeyboardButton('🎭About', callback_data = "about")
                 ]
             ]
         )
